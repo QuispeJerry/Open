@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "peliculas": [
+    {
+      "nombre": "Mario Bross",
+      "photo": "https://bit.ly/422LIlL",
+      "duracion": "01:20",
+      "genero": "Animado",
+      "id": 2
+    },
+    {
+      "nombre": "John Wick",
+      "photo": "https://bit.ly/41B8UaM",
+      "duracion": "03:50",
+      "genero": "Accion",
+      "id": 3
+    }
+  ]
+}

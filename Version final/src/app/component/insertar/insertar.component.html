@@ -1,0 +1,39 @@
+<div mat-dialog-title>
+  <h1>Agregar peliculas</h1>
+</div>
+
+<form [formGroup]="peliculas" (ngSubmit)="agregarFormulario()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+
+        <input matInput type="text" formControlName="nombre" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Link imagen</mat-label>
+
+        <input matInput type="text" formControlName="photo" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Duracion</mat-label>
+
+        <input matInput type="time" formControlName="duracion" />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Genero</mat-label>
+
+        <input matInput type="text" formControlName="genero" />
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div mat-dialog-action class="accion">
+    <button mat-raised-button [mat-dialog-close]="false">Cancelar</button>
+    <button mat-raised-button color="primary" type="submit">
+      {{ data ? "Actualizar" : "Agregar" }}
+    </button>
+  </div>
+</form>
