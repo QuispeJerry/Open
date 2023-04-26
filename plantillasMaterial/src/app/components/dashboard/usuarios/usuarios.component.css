@@ -1,0 +1,23 @@
+.container{
+    margin: 2rem
+}
+table {
+    width: 100%;
+  }
+
+th{
+    width: 20%;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }

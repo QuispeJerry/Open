@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "drinks":[
+    {
+      "id":1,
+    "idDrink": "1722",
+    "strDrink": "KOLJSKSDKLSDKLDS"
+    },
+    {
+      "id":2,
+    "idDrink": "111111111",
+    "strDrink": "cOSHITA"
+    },
+    {
+      "id":3,
+    "idDrink": "Jerry",
+    "strDrink": "Quispe GAVILAN"
+    }
+  ]
+}

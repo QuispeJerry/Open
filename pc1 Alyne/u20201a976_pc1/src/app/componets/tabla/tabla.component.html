@@ -1,0 +1,69 @@
+<!-- <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="Name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.idDrink}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Instruction">
+      <th mat-header-cell *matHeaderCellDef> Instruction </th>
+      <td mat-cell *matCellDef="let element"> {{element.strDrink}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Date">
+      <th mat-header-cell *matHeaderCellDef> Date </th>
+      <td mat-cell *matCellDef="let element"> {{element.strDrinkAlternate}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Glass">
+      <th mat-header-cell *matHeaderCellDef> Glass </th>
+      <td mat-cell *matCellDef="let element"> {{element.strTags}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Glass1">
+      <th mat-header-cell *matHeaderCellDef> Glass </th>
+      <td mat-cell *matCellDef="let element"> {{element.strVideo}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Glass2">
+      <th mat-header-cell *matHeaderCellDef> Glass </th>
+      <td mat-cell *matCellDef="let element"> {{element.strCategory}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Glass3">
+      <th mat-header-cell *matHeaderCellDef> Glass </th>
+      <td mat-cell *matCellDef="let element"> {{element.strIBA}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Glass4">
+      <th mat-header-cell *matHeaderCellDef> Glass </th>
+      <td mat-cell *matCellDef="let element"> {{element.strAlcoholic}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Glass5">
+      <th mat-header-cell *matHeaderCellDef> Glass </th>
+      <td mat-cell *matCellDef="let element"> {{element.strGlass}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table> -->
+
+
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="idDrink">
+      <th mat-header-cell *matHeaderCellDef> Id </th>
+      <td mat-cell *matCellDef="let item"> {{item.idDrink}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="strDrink">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.strDrink}} </td>
+    </ng-container>
+  
+    
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  

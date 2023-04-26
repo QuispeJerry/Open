@@ -1,0 +1,15 @@
+[
+    {
+        "nombre":"usuarios",
+        "redirect":"/dashboard/usuarios"
+    },
+    {
+        "nombre":"Dashboard",
+        "redirect":"/dashboard"
+    },
+    {
+        "nombre":"Reportes",
+        "redirect":"/dashboard/reportes"
+    }
+    
+]
